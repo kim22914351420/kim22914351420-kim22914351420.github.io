@@ -12,7 +12,7 @@ matplotlib and seaborn. To run the algorithm, the user must have the spectralGA.
 parameters.py Python modules in the same directory. To start the GA, the user must then run
 spectralGA.py, which has the parameters.py module imported. Upon starting, the program will
 create a subdirectory that is labeled with a timestamp, and results will be saved as text and
-image files.
+image files. View the GitHub repository [here](https://github.com/kim22914351420/spectralGA).
 
 ## Motivation
 

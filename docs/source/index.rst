@@ -10,6 +10,6 @@ Welcome to Genetic Algorithm for Spectral Decomposition's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. _Git repo: git://github.com/kim22914351420/spectralGA
+.. _Git repo: git://github.com/kim22914351420/spectralGA.git
 
    Readme

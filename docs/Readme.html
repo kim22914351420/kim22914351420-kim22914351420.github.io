@@ -34,8 +34,7 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome to Genetic Algorithm for Spectral Decomposition’s documentation!" href="index.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -79,39 +78,39 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#motivation">Motivation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#what-do-genetic-algorithms-do">What do genetic algorithms do?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#decomposing-a-spectrum">Decomposing a spectrum</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#how-the-ga-optimization-works">How the GA optimization works</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#spectroscopy">Spectroscopy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#classes-and-methods">Classes and Methods</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#tadata">TAData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#geneticalgorithm">GeneticAlgorithm</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#load-initial-guesses-and-reference-spectra">load_initial_guesses_and_reference_spectra</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uncertainty">uncertainty</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#smooth">smooth</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cut-off">cut_off</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#run-ga">run_GA</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ga-optimization">GA_optimization</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#evolution">evolution</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#fitness">fitness</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ss-spline">ss_spline</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#qr-solve">QR_solve</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#save-results">save_results</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#save-metadata">save_metadata</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#timeslices">timeslices</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#surface-plots">surface_plots</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id1"></a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Installation</a></li>
+<li><a class="reference internal" href="#motivation">Motivation</a></li>
+<li><a class="reference internal" href="#what-do-genetic-algorithms-do">What do genetic algorithms do?</a></li>
+<li><a class="reference internal" href="#decomposing-a-spectrum">Decomposing a spectrum</a></li>
+<li><a class="reference internal" href="#how-the-ga-optimization-works">How the GA optimization works</a></li>
+<li><a class="reference internal" href="#spectroscopy">Spectroscopy</a></li>
+<li><a class="reference internal" href="#classes-and-methods">Classes and Methods</a><ul>
+<li><a class="reference internal" href="#tadata">TAData</a></li>
+<li><a class="reference internal" href="#geneticalgorithm">GeneticAlgorithm</a><ul>
+<li><a class="reference internal" href="#load-initial-guesses-and-reference-spectra">load_initial_guesses_and_reference_spectra</a></li>
+<li><a class="reference internal" href="#uncertainty">uncertainty</a></li>
+<li><a class="reference internal" href="#smooth">smooth</a></li>
+<li><a class="reference internal" href="#cut-off">cut_off</a></li>
+<li><a class="reference internal" href="#run-ga">run_GA</a></li>
+<li><a class="reference internal" href="#ga-optimization">GA_optimization</a></li>
+<li><a class="reference internal" href="#evolution">evolution</a></li>
+<li><a class="reference internal" href="#fitness">fitness</a></li>
+<li><a class="reference internal" href="#ss-spline">ss_spline</a></li>
+<li><a class="reference internal" href="#qr-solve">QR_solve</a></li>
+<li><a class="reference internal" href="#save-results">save_results</a></li>
+<li><a class="reference internal" href="#save-metadata">save_metadata</a></li>
+<li><a class="reference internal" href="#timeslices">timeslices</a></li>
+<li><a class="reference internal" href="#surface-plots">surface_plots</a></li>
+<li><a class="reference internal" href="#id1"></a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#credits-and-acknowledgements">Credits and Acknowledgements</a></li>
+<li><a class="reference internal" href="#credits-and-acknowledgements">Credits and Acknowledgements</a></li>
 </ul>
-
+</div>
             
           
         </div>
@@ -186,7 +185,7 @@ matplotlib and seaborn. To run the algorithm, the user must have the spectralGA.
 parameters.py Python modules in the same directory. To start the GA, the user must then run
 spectralGA.py, which has the parameters.py module imported. Upon starting, the program will
 create a subdirectory that is labeled with a timestamp, and results will be saved as text and
-image files.</p>
+image files. View the GitHub repository <a class="reference external" href="https://github.com/kim22914351420/spectralGA">here</a>.</p>
 </div>
 <div class="section" id="motivation">
 <h1>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h1>
@@ -221,14 +220,14 @@ values contain z values.</p>
 <p>The following is an example of a surface plot of a spectrum:</p>
 <p><img alt="_images/surfaceplot.png" src="_images/surfaceplot.png" /></p>
 <p>We can take slices of this plot at certain times:</p>
-<p><img alt="_images/timeslices1.png" src="_images/timeslices1.png" /></p>
+<p><img alt="_images/timeslices.png" src="_images/timeslices.png" /></p>
 <p>We can see the shape of the spectrum changing in both the surface plot and the plot of time
 slices. This can be explained by component spectra that change at different rates. For example,
 the GA would decompose the complete spectrum into two spectra as show below:</p>
-<p><img alt="_images/spectra1.png" src="_images/spectra1.png" /></p>
+<p><img alt="_images/spectra.png" src="_images/spectra.png" /></p>
 <p>These spectra are normalized so that we can compare their shapes. We can graph their actual
 intensities over time by plotting their <em>kinetics</em>:</p>
-<p><img alt="_images/kinetics1.png" src="_images/kinetics1.png" /></p>
+<p><img alt="_images/kinetics.png" src="_images/kinetics.png" /></p>
 <p>We see that as the intensity of one feature decays, the intensity of the other feature grows.
 If the rates of growth and decay are similar, that might mean that the presence of one feature
 might lead to the presence of another feature in our model. For instance, the first feature
@@ -357,13 +356,6 @@ to Florian Schroeder and Callum Ward for their valuable contributions to said MA
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-      
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Genetic Algorithm for Spectral Decomposition’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
