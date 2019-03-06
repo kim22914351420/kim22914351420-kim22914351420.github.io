@@ -100,7 +100,7 @@ faster. These experiments are common in the field of optoelectronics. Therefore,
 and variables in this module largely correspond to terms from those experiments. Furthermore,
 explanations made up until this point have been simplified. For instance, instead of the intensity
 values for the z dimension, TA values are unitless DT/T values that are specific to the TA
-experiments. Explanations of TA are readily found elsewhere should someone want a more precise
+experiments. Explanations of TA are readily found elsewhere should the user want a more precise
 discussion.
 
 ## Classes and Methods
@@ -181,7 +181,6 @@ Plots surface maps of the total and component spectra.
 
 ## Credits and Acknowledgements 
 
-This module is based on an excellent genetic algorithm program written in MATLAB by Simon
-Gelinas Simon G&eacute;linas during his PhD in the Optoelectronics Group at the University of Cambridge. The
+This module is based on an excellent genetic algorithm program written in MATLAB by Simon G&eacute;linas during his PhD in the Optoelectronics Group at the University of Cambridge. The
 program is discussed in his thesis, and it is a wonderful resource to the group. Many thanks
 to Florian Schroeder and Callum Ward for their valuable contributions to said MATLAB program.
